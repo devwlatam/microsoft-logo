@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    background-color: #f0ffff;
+}
+
+.logo {
+    width: 300px;
+    height: 300px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 20px;
+}
+
+.red { background-color: #f25022; }
+.green { background-color: #7fba00; }
+.blue { background-color: #01a0e6; }
+.yellow { background-color: #ffb900; }
